@@ -1,7 +1,7 @@
 .container {
   display: flex;
   justify-content: space-between;
-  /* padding: 0 6rem; */
+  padding: 0 6rem;
 }
 
 .logo {
@@ -33,7 +33,7 @@
   color: #ffffff;
 }
 
-@media only screen and (max-width: 768px){
+@media screen and (min-width: 280px) and (max-width: 1080px){
  .container{
   padding: auto;
  }
