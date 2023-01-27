@@ -7,7 +7,7 @@ import {
   FaTelegramPlane,
   FaTwitter,
 } from "react-icons/fa";
-
+ 
 const Footer = () => {
   return (
     <div className="footer_section">
