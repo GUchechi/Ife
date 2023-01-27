@@ -5,7 +5,7 @@
   align-items: center;
   /* padding: 80px; */
   background: #feefe5;
-  height: 60vh;
+  height: 80vh;
   width: 100%;
 }
 
@@ -40,17 +40,6 @@ form {
   align-items: center;
 }
 
-.formData {
-  text-transform: uppercase;
-  border: none;
-  border-radius: 8px;
-  padding: 1rem;
-  outline: none;
-  padding-right: 20rem;
-  justify-content: center;
-  align-items: center;
-}
-
 .formBtn {
   background-color: #920f0f;
   color: #fff;
@@ -70,7 +59,24 @@ form {
   margin-top: 2rem;
 }
 
+.form__controlswrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 30px;
+}
 
+.inputName,
+.inputEmail {
+  width: 100%;
+  border: 2px solid #fff;
+  padding: 16px 12px;
+  transition: all 0.5s ease;
+  position: relative;
+  background-color: #fff;
+  outline: none !important;
+  border-radius: 8px;
+}
 
 @media screen and (min-width: 280px) and (max-width: 1080px) {
   .contact {
@@ -79,11 +85,5 @@ form {
 
   .contact_title {
     font-size: 30px;
-  }
-
-  .formData {
-    width: 20px;
-    grid-template-columns: 1fr;
-    margin: 0;
   }
 }
