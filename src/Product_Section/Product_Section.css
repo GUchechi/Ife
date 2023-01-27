@@ -28,3 +28,45 @@
   width: 60%;
   text-align: center;
 }
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .ProductSection {
+    padding: 5rem 2rem;
+    min-height: 100ch;
+    height: 75rem;
+  }
+
+  .productImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20rem;
+  }
+
+  .productImage {
+    width: 300px;
+    height: 300px;
+  }
+
+  .extra {
+    margin-top: 1rem;
+  }
+
+  .productText {
+    margin-top: 22rem;
+    width: 313px;
+    height: 120px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.656526px;
+  }
+}

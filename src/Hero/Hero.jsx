@@ -18,10 +18,9 @@ const Hero = () => {
           </p>
           <button className="btn">Get Early Access</button>
           <div className="social_icons">
-            <p>Follow us on</p>
+          <span>Follow us on</span>
             <FaTwitter size={22} />
             <FaInstagram size={22} />
-            <FaTelegramPlane size={22} />
             <FaDiscord size={22} />
           </div>
         </div>

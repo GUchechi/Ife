@@ -13,7 +13,7 @@ const ProductSection = () => {
         <img className="productImage" width='250px' height='400px' src={Rectangle67} alt="Product Images" />
       </div>
       <div className="productText">
-        <p>
+        <p> 
           ifẹ uses artificial intelligence to analyse the interests, lifestyle
           and preferences of both the giver and the recipients so that you can
           be sure that you are giving and receiving the perfect gift.
