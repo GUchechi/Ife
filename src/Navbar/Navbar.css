@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 6rem; */
+}
+
+.logo {
+  margin-top: 1rem;
+  /* margin-left: 6rem; */
+}
+
+.menu {
+  display: flex;
+  border-radius: 80px;
+  justify-content: center;
+  align-items: center;
+  background: #920f0f;
+  width: 150px;
+  height: 45px;
+  margin-top: 1rem;
+  /* margin-right: 6rem; */
+}
+
+.menu_text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px){
+ .container{
+  padding: auto;
+ }
+}

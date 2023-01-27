@@ -1,0 +1,30 @@
+.ProductSection {
+  background: #920f0f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 2rem;
+  gap: 60px;
+}
+
+.productImg {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.extra {
+  margin-top: 6rem;
+}
+
+.productText {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+  width: 60%;
+  text-align: center;
+}
