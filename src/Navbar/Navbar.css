@@ -1,12 +1,12 @@
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 0 6rem;
+  padding: 0 1rem;
 }
 
 .logo {
   margin-top: 1rem;
-  /* margin-left: 6rem; */
+  margin-left: 2rem;
 }
 
 .menu {
@@ -18,7 +18,7 @@
   width: 150px;
   height: 45px;
   margin-top: 1rem;
-  /* margin-right: 6rem; */
+  margin-right: 2rem;
 }
 
 .menu_text {
@@ -34,7 +34,5 @@
 }
 
 @media screen and (min-width: 280px) and (max-width: 1080px){
- .container{
-  padding: auto;
- }
+ 
 }
