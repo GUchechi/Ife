@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 280px) and (max-width: 1080px){
   .footer_section{
-    height: 30vh;
+    height: 40vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
