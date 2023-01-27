@@ -3,7 +3,7 @@ import "./Hero.css";
 import {
   FaDiscord,
   FaInstagram,
-  FaTelegramPlane,
+  FaTelegramPlane, 
   FaTwitter,
 } from "react-icons/fa";
 

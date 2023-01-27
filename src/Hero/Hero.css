@@ -70,3 +70,51 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .hero {
+    min-height: 10vh;
+  }
+  .hero_left_section {
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    margin-right: 7rem;
+    width: 333px;
+    height: 88px;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .subTitle {
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    margin-right: 7rem;
+    width: 333px;
+    height: 88px;
+    font-family: "Noto Sans";
+    font-style: normal;
+  }
+
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7rem;
+  }
+  .social_icons{
+    margin-right: 7rem;
+    gap: 2rem;
+  }
+}
