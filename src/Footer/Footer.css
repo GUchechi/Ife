@@ -19,14 +19,13 @@
   font-weight: bold;
 }
 
-.logo{
+.logo {
   font-weight: bold;
   cursor: pointer;
 }
 
-
-@media screen and (min-width: 280px) and (max-width: 1080px){
-  .footer_section{
+@media only screen and (max-width: 768px) {
+  .footer_section {
     height: 40vh;
     flex-direction: column;
     justify-content: center;

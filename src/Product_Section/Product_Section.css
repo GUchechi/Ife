@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 280px) and (max-width: 1080px) {
+@media only screen and (max-width: 768px) {
   .ProductSection {
     padding: 5rem 2rem;
     min-height: 100ch;

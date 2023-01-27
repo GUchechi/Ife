@@ -71,7 +71,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 280px) and (max-width: 1080px) {
+@media only screen and (max-width : 768px){
   .hero {
     min-height: 10vh;
   }

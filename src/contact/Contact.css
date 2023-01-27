@@ -78,7 +78,7 @@ form {
   border-radius: 8px;
 }
 
-@media screen and (min-width: 280px) and (max-width: 1080px) {
+@media only screen and (max-width : 768px) {
   .contact {
     height: 70vh;
   }
