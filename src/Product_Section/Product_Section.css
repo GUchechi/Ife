@@ -32,15 +32,15 @@
 @media only screen and (max-width: 768px) {
   .ProductSection {
     padding: 5rem 2rem;
-    min-height: 100ch;
-    height: 75rem;
+    min-height: 100vh;
+    height: 85rem;
   }
 
   .productImg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20rem;
+    padding-top: 30rem;
   }
 
   .productImage {
@@ -53,7 +53,7 @@
   }
 
   .productText {
-    margin-top: 22rem;
+    margin-top: 30rem;
     width: 313px;
     height: 120px;
 
