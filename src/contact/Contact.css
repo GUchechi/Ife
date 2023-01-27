@@ -27,7 +27,7 @@
   font-size: 20px;
   align-items: center;
   text-align: center;
-  margin-top: rem; 
+  margin-top: rem;
   color: #212121;
 }
 
@@ -70,12 +70,16 @@ form {
   margin-top: 2rem;
 }
 
-@media screen and (min-width: 280px) and (max-width: 1080px){
-  .contact{
-    height: 80vh;
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .contact {
+    height: 70vh;
   }
 
-  .formData{
+  .contact_title {
+    font-size: 30px;
+  }
+
+  .formData {
     width: 20px;
     grid-template-columns: 1fr;
     margin: 0;
