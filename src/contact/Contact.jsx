@@ -15,7 +15,7 @@ const Contact = () => {
           <button className="formBtn">Get Early Access</button>
         </form>
       </div>
-    </div>
+    </div> 
   );
 };
 

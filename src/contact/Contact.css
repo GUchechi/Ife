@@ -27,7 +27,7 @@
   font-size: 20px;
   align-items: center;
   text-align: center;
-  margin-top: rem;
+  margin-top: rem; 
   color: #212121;
 }
 
@@ -68,4 +68,16 @@ form {
   font-style: normal;
   font-weight: 400;
   margin-top: 2rem;
+}
+
+@media screen and (min-width: 280px) and (max-width: 1080px){
+  .contact{
+    height: 80vh;
+  }
+
+  .formData{
+    width: 20px;
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
 }
